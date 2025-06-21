@@ -9,6 +9,7 @@ license = {text = "CC-BY-NC-SA"}
 readme = "README.rst"
 requires-python = ">=3.11,<4.0"
 dependencies = [
+    "furo (>=2024.8.6,<2025.0.0)"
 ]
 
 [tool.poetry]

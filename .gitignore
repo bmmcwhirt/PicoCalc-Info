@@ -54,7 +54,8 @@ nohup.out
 .DS_Store
 .AppleDouble
 .LSOverride
-Icon[]
+Icon[
+]
 
 # Thumbnails
 ._*
@@ -85,7 +86,8 @@ __pycache__/
 
 # Distribution / packaging
 .Python
-build/
+# build/
+!build/html
 develop-eggs/
 dist/
 downloads/
@@ -331,3 +333,7 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+
+# Sphinx related
+build/doctrees

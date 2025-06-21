@@ -23,6 +23,10 @@ extensions = [
     'sphinx.ext.todo',
     'sphinx.ext.viewcode',
     'sphinx.ext.githubpages',
+    'sphinx_contributors',
+    'sphinx_copybutton',
+    'sphinx_design',
+    'sphinx_toolbox.code',
 ]
 
 templates_path = ['_templates']
@@ -33,7 +37,7 @@ language = 'en'
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
-html_theme = 'alabaster'
+html_theme = 'furo'
 html_static_path = ['_static']
 
 # -- Options for intersphinx extension ---------------------------------------
