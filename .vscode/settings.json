@@ -1,0 +1,19 @@
+{
+    "python-envs.pythonProjects": [],
+    "esbonio.sphinx.warningIsError": true,
+    "esbonio.server.pythonPath": "python",
+    "esbonio.sphinx.srcDir": "${workspaceFolder}/source",
+    "esbonio.sphinx.confDir": "${workspaceFolder}/source",
+    "esbonio.sphinx.buildDir": "${workspaceFolder}/build",
+    "flake8.importStrategy": "fromEnvironment",
+    "autopep8.importStrategy": "fromEnvironment",
+    "python.analysis.autoFormatStrings": true,
+    "python.analysis.autoImportCompletions": true,
+    "python.analysis.typeCheckingMode": "standard",
+    "python.languageServer": "Pylance",
+    "python.terminal.focusAfterLaunch": true,
+    "python.testing.pytestEnabled": true,
+    "autoDocstring.docstringFormat": "sphinx",
+    "black-formatter.importStrategy": "fromEnvironment",
+    "pre-commit-helper.runOnSave": "checks"
+}
