@@ -86,8 +86,8 @@ __pycache__/
 
 # Distribution / packaging
 .Python
-# build/
-!build/html
+build/
+
 develop-eggs/
 dist/
 downloads/
@@ -334,6 +334,3 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-
-# Sphinx related
-build/doctrees

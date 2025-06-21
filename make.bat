@@ -26,6 +26,7 @@ if errorlevel 9009 (
 if "%1" == "" goto help
 
 %SPHINXBUILD% -M %1 %SOURCEDIR% %BUILDDIR% %SPHINXOPTS% %O%
+xcopy %BUILDDIR%\html .\docs /E
 goto end
 
 :help
